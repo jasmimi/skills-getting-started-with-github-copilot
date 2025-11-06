@@ -166,8 +166,25 @@ footer {
 
 .participant-item {
   margin: 0;
+  display: inline-flex;
+  align-items: center;
 }
 
+.participant-delete {
+  margin-left: 8px;
+  background: transparent;
+  border: none;
+  color: #c62828;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 1;
+  padding: 4px 6px;
+  border-radius: 4px;
+}
+
+.participant-delete:hover {
+  background: rgba(198, 40, 40, 0.08);
+}
 .participant-badge {
   display: inline-block;
   background-color: #e3f2fd;
